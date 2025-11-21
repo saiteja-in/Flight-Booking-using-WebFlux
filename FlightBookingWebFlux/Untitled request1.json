@@ -1,0 +1,26 @@
+{
+  "name": "Untitled request1",
+  "request": {
+    "type": "http",
+    "url": "http://localhost:8080/api/create/person",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "POST",
+    "queryParams": [],
+    "headers": [],
+    "body": "{\n  \"personName\":\"sai teja\",\n  \"personDream\":\"to not sell out\",\n  \"dob\":\"2025-02-13\"\n}",
+    "bodyContainer": {
+      "text": "{\n  \"personName\":\"sai teja\",\n  \"personDream\":\"to not sell out\",\n  \"dob\":\"2025-02-13\"\n}",
+      "form": [],
+      "multipartForm": []
+    },
+    "contentType": "application/json",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    },
+    "pathVariables": []
+  }
+}

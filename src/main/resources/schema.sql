@@ -14,3 +14,13 @@ CREATE TABLE IF NOT EXISTS "flights" (
                          created_at TIMESTAMP,
                          updated_at TIMESTAMP
 );
+
+
+CREATE TABLE IF NOT EXISTS "persons" (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    person_name VARCHAR(255) NOT NULL,
+    person_dream VARCHAR(255) NOT NULL,
+    dob DATE NOT NULL,
+    created_at TIMESTAMP,
+    updated_at TIMESTAMP
+    );

@@ -2,6 +2,7 @@ package com.saiteja.flightbookingwebflux.dto;
 
 
 import com.saiteja.flightbookingwebflux.model.enums.FlightStatus;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,8 +10,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
-@Getter
-@Setter
+@Data
 public class FlightResponse {
 
     private Long id;
