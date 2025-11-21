@@ -16,22 +16,17 @@ public class Passenger {
     private Long id;
 
     @NotBlank
-    @Column("full_name")
     private String fullName;
 
     @NotBlank
-    @Column("gender")
     private String gender;
 
     @Min(0)
-    @Column("age")
     private Integer age;
 
     @NotBlank
-    @Column("seat_number")
     private String seatNumber;
 
     @NotBlank
-    @Column("booking_pnr")
     private String bookingPnr;
 }
