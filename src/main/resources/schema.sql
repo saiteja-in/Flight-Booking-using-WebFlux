@@ -1,6 +1,4 @@
-DROP TABLE IF EXISTS "flights";
-
-CREATE TABLE "flights" (
+CREATE TABLE IF NOT EXISTS "flights" (
                          id BIGINT AUTO_INCREMENT PRIMARY KEY,
                          flight_number VARCHAR(255) NOT NULL,
                          airline_name VARCHAR(255) NOT NULL,
