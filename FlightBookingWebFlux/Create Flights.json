@@ -1,0 +1,26 @@
+{
+  "name": "Create Flights",
+  "request": {
+    "type": "http",
+    "url": "http://localhost:8080/api/v1/flights",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "POST",
+    "queryParams": [],
+    "headers": [],
+    "body": " {\n      \"flightNumber\": \"AI1313\",\n      \"airlineName\": \"Air India\",\n      \"originCity\": \"HYD\",\n      \"destinationCity\": \"GOA\",\n      \"scheduleDate\": \"2025-12-01\",\n      \"departureTime\": \"09:30\",\n      \"arrivalTime\": \"11:45\",\n      \"baseFare\": 7800,\n      \"totalSeats\": 180\n    }",
+    "bodyContainer": {
+      "text": " {\n      \"flightNumber\": \"AI1313\",\n      \"airlineName\": \"Air India\",\n      \"originCity\": \"HYD\",\n      \"destinationCity\": \"GOA\",\n      \"scheduleDate\": \"2025-12-01\",\n      \"departureTime\": \"09:30\",\n      \"arrivalTime\": \"11:45\",\n      \"baseFare\": 7800,\n      \"totalSeats\": 180\n    }",
+      "form": [],
+      "multipartForm": []
+    },
+    "contentType": "application/json",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    },
+    "pathVariables": []
+  }
+}
