@@ -22,10 +22,11 @@ public class FlightManagementController {
     private FlightService flightService;
 
     @PostMapping
-    public Mono<FlightResponse> createFlight(@Valid @RequestBody FlightRequest request) {
+    public Mono<String> createFlight(@Valid @RequestBody FlightRequest request) {
         return flightService.createFlight(request)
-                .map(this::toResponse);
+                .then(Mono.just("Created"));
     }
+
 
     @PutMapping("/{flightId}")
     public Mono<FlightResponse> updateFlight(@PathVariable Long flightId,
